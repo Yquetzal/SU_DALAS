@@ -1,3 +1,21 @@
+#Overview
+
+* 14/09 - Intro + data collection(RC)
+* EDA(RC)
+* Visualization(RC)
+* Storytelling(RC)
+* Clustering(RC)
+* Protocol-1(CBM)
+* Protocol-2(CBM)
+* ANOVA
+* Bias
+* From lab to Production (MLops)
+
+
+
+
+
+
 Titre: From lab to production
 Contenu:
 - Évaluation pour la production: monitoring continu, détection des attaques attaques et biais
