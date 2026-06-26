@@ -44,7 +44,23 @@
 * Advanced Plots
 * Dash
 
-## 
+## ANOVA
+* Why ANOVA
+* How does it work
+
+## ML Protocol 1
+* Machine learning tasks 
+* Machine learning Methodology 
+* Training 
+* Overfitting and reguarisation 
+* Reproduceability 
+
+## ML Protocol 2
+* Evaluation metrics, reporting results
+* Ensembling 
+* Experimental design (ablation studies) 
+* Environments (anaconda, venv ...) 
+* Annotation 
 
 
 ## From lab to production (Olivier Schwander)
