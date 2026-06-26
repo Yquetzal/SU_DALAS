@@ -2,7 +2,7 @@
 
 * 14/09 - Intro + data collection(RC)
 * 21/09 - EDA(RC)
-* 28/09 - Visualization(RC)
+* 28/09 - Dimensionality Reduction(RC)
 * 05/10 - Storytelling(RC)
 * 12/10 - Clustering(RC)
 * 19/10 - Protocol-1(CBM)
@@ -15,6 +15,37 @@
 
 
 # Details
+
+## Intro + data collection
+* Presentation of class content, evaluation, etc.
+* Data Science, Data Mining, Machine Learning: What, Why, How ?
+* Data collection: scrapping
+* Data collection: API
+* Project Présentation
+* AI and Data Mining - AI and the class
+
+## EDA
+* Why EDA
+* Types of data
+* Dataframes
+* Plots
+* Missing data + imputation
+* Outlier detection
+* Preprocessing ?
+
+## Dimensionality Reduction
+* PCA
+* FCA
+* nonlinear transformations
+* interpretation
+
+## Storytelling  (?)
+* What and Why ?
+* Advanced Plots
+* Dash
+
+## 
+
 
 ## From lab to production (Olivier Schwander)
 ### Contenu:
