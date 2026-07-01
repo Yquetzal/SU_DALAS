@@ -1,14 +1,14 @@
 # Overview
 
 * 14/09 - Intro + data collection(RC)
-* 21/09 - EDA(RC)
-* 28/09 - Visualization
-* 05/10 - Dimensionality Reduction(RC)
+* 21/09 - EDA + Dash(RC)
+* 28/09 - BD1 (CC)
+* 05/10 - BD2 + Storytelling (CC)
 * 12/10 - Clustering(RC)
-* 19/10 - ML Protocol-1(CBM)
-* 02/11 - ML Protocol-2(CBM)
-* 09/11 - Interpretability - 
-* 16/11 - Bias - (ANOVA) - Storytelling (RC)
+* 19/10 - Dimensionality Reduction(RC)
+* 02/11 - ML Protocol-1(CBM)
+* 09/11 - ML Protocol-2(CBM) 
+* 16/11 - Interpretability - Bias
 * 23/11 - From lab to Production - MLops(OS)
 
 
