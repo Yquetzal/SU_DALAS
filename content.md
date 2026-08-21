@@ -8,7 +8,7 @@
 * 19/10 - Dimensionality Reduction(RC)
 * 02/11 - ML Protocol-1(CBM)
 * 09/11 - ML Protocol-2(CBM) 
-* 16/11 - Interpretability - Bias
+* 16/11 - Interpretability - Bias (RC)
 * 23/11 - From lab to Production - MLops(OS)
 
 
@@ -28,10 +28,10 @@
 * Why EDA
 * Types of data
 * Dataframes
+* Preprocessing
 * Plots
 * Missing data + imputation
 * Outlier detection
-* Preprocessing ?
 
 ## Dimensionality Reduction
 * PCA
