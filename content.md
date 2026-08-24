@@ -11,7 +11,11 @@
 * 16/11 - Interpretability - Bias (RC)
 * 23/11 - From lab to Production - MLops(OS)
 
-
+# Schedule - teachers
+* G1:Monday 8h30-12h45 :         Clara
+* G2:Wednesday 8h30-12h45 :    Rémy
+* G3:Thursday 8h30-12h45 :       Zakariae
+* G4:Thursday 13h45-18h00 :     Camélia(20h) + Zakariae(20h)
 
 
 # Details (WORK IN PROGRESS)
