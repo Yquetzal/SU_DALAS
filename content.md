@@ -42,6 +42,15 @@ The objectives is NOT to teach you how to code some particular solutions. There 
 
 # Project
 
+The project is done in groups of 2 or 3 students. You can choose your groups freely. 
+
+The objective of the project is to 1)choose a dataset, 2)ask one or a few questions relative to this dataset, and 3)try to answer it. Each part is important:
+
+### The dataset
+You have to build your own dataset. There are two main possibilities: 
+* the first one is to use APIs and/or scrapping to build your own dataset from an accessible source. Usually it will not be just collecting one table from wikipedia, but rather collecting multiple several items and grouping them in a single database.
+* The second one is to use an already existing dataset. This is allowed ONLY if the dataset is 1)about real data, 2)is complex enough to require preprocessing and analysis. For instance, a dataset with 300 observations and 5 variables is too simple. 
+
 ----
 
 # Note on AI tools
