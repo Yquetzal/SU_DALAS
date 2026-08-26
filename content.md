@@ -48,8 +48,8 @@ The objective of the project is to 1)choose a dataset, 2)ask one or a few questi
 
 ### The dataset
 You have to build your own dataset. There are two main possibilities: 
-* the first one is to use APIs and/or scrapping to build your own dataset from an accessible source. Usually it will not be just collecting one table from wikipedia, but rather collecting multiple several items and grouping them in a single database.
-* The second one is to use an already existing dataset. This is allowed ONLY if the dataset is 1)about real data, 2)is complex enough to require preprocessing and analysis. For instance, a dataset with 300 observations and 5 variables is too simple. 
+* The first one is to use APIs and/or scrapping to build your own dataset from an accessible source. Usually it will not be just collecting one table from wikipedia, but rather collecting multiple several items and grouping them in a single database.
+* The second one is to use an already existing dataset. This is allowed ONLY if the dataset is 1)about real data, 2)is complex enough to require preprocessing and analysis. For instance, a dataset with 300 observations and 5 variables is too simple. A complete dump of a large database such as the one from openfoodfacts, a large collection of playlists from spotify, or complete records of temperatures from europe, daily during 10 years, will represent significant challenges to analyze. In each of these case, enriching the dataset from other sources is not only allowed, but encouraged. For instance, in the temperature dataset, you can search for additionnal information about cities such as their geographical positions, altitude, precipitations, avergage cloud covers, or any other information that you think can be relevant.
 
 ----
 
