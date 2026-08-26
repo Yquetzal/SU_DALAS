@@ -201,16 +201,15 @@ However, keep the following points in mind:
 * Missing data + imputation
 * Outlier detection
 
+## BD1
+
+## BD2
+
 ## Dimensionality Reduction
 * PCA
 * FCA
 * nonlinear transformations
 * interpretation
-
-## Storytelling  (?)
-* What and Why ?
-* Advanced Plots
-* Dash
 
 ## Clustering 
 * what is it
@@ -218,27 +217,20 @@ However, keep the following points in mind:
 * Gaussian Mixture
 * DBSCAN - HDBSCAN
 
-## ANOVA (?)
-* Why ANOVA
-* How does it work
-
 ## ML Protocol 1
 
 
 ## ML Protocol 2
 
-## Interpretability
+## Interpretability - Bias
 * Direct interpretation
 * Post-hoc interpretation
 * LIME-SHAP
-
-## BIAS (?)
 * LLM Bias
 
 ## From lab to production (Olivier Schwander)
-### Contenu:
-* Évaluation pour la production: monitoring continu, détection des attaques attaques et biais
-* Méthodes: quelques mots sur les modèles de fondation et zero/few-shots
- et sur le fait qu'on peut souvent éviter un nouveau train mais pas une
- évaluation
-* Outils: mlops avec mlflow, docker
+### Content
+
+* **Evaluation in production:** continuous monitoring, attack detection, and bias detection.
+* **Methods:** a brief introduction to foundation models and zero-/few-shot learning, and why fine-tuning can often be avoided whereas evaluation remains essential.
+* **Tools:** MLOps with MLflow and Docker.
