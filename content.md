@@ -49,7 +49,29 @@ The objective of the project is to 1)choose a dataset, 2)ask one or a few questi
 ### The dataset
 You have to build your own dataset. There are two main possibilities: 
 * The first one is to use APIs and/or scrapping to build your own dataset from an accessible source. Usually it will not be just collecting one table from wikipedia, but rather collecting multiple several items and grouping them in a single database.
-* The second one is to use an already existing dataset. This is allowed ONLY if the dataset is 1)about real data, 2)is complex enough to require preprocessing and analysis. For instance, a dataset with 300 observations and 5 variables is too simple. A complete dump of a large database such as the one from openfoodfacts, a large collection of playlists from spotify, or complete records of temperatures from europe, daily during 10 years, will represent significant challenges to analyze. In each of these case, enriching the dataset from other sources is not only allowed, but encouraged. For instance, in the temperature dataset, you can search for additionnal information about cities such as their geographical positions, altitude, precipitations, avergage cloud covers, or any other information that you think can be relevant.
+* The second one is to use an already existing dataset. This is allowed ONLY if the dataset 1)corresponds to real data, i.e., not a synthetically generated dataset 2)is complex enough to require preprocessing and analysis. For instance, a dataset with 300 observations and 5 variables is too simple. A complete dump of a large database such as the one from openfoodfacts, a large collection of playlists from spotify, or complete records of temperatures from europe, daily during 10 years, will represent a sufficient challenge to analyze. In each of these case, enriching the dataset from other sources is not only allowed, but encouraged. For instance, in the temperature dataset, you can search for additionnal information about cities such as their geographical positions, altitude, precipitations, avergage cloud covers, or any other information that you think can be relevant.
+
+### The question(s)
+You have to choose one or a few questions that are general questions about the world, and not specific to a dataset. For instance, examples of correct questions are:
+* Where is climate change the strongest?
+* Who is the most probable next president of France?
+* What are the main factors driving the price of used cars?
+etc.
+
+Examples of questions that are not adapted are:
+* What are the clusters of cities found on a dataset of climate change? (blindly applying methods to a dataset)
+* What method gives the best result to predict used car prices? (blindly applying methods to a dataset)
+
+Think of the process in that way:
+1)Think about a question that interst you
+2)Search for the data adapted to answer that question
+3)Apply the various tools presented in the class to answer your question with your data
+
+### FAQ
+* What if I don't know if I will find the correct data to answer my question?
+First make a quick check that some data exist. If yes, see answer to the next question
+* What if the question I asked is too difficult and I later realise that 1)I do not have the appropriate data, or 2)The problem is too complex to solve with the methods I learned in the class
+That is not a problem. You will not be evaluated on the correctness of the answer to your question. You will be evaluated on your capacity to apply the Data Analysis process described in the course: understand your data, its limits, prepare it correctly, apply adapted methods, interpret the results, etc. You might end-up answering only part of the question, or concluding that you need an additional information you do not have access to in order to answer your questions. But that can be a successful result, if you learned this by applying successfully the tools presented in the class to the best dataset you could collect in the time you had.
 
 ----
 
