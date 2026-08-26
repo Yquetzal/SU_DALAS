@@ -15,7 +15,7 @@
 # TME
 
 ## TME: Groups and Teachers
-| Groupe | Jour | Horaire | Enseignant(s) |
+| Group | Day | Time | Teacher(s) |
 |--------|------|----------|----------------|
 | **G1** | Monday | 8:30–12:45 | Clara |
 | **G2** | Wednesday | 8:30–12:45 | Rémy |
