@@ -32,8 +32,16 @@ The timing is relatively flexible, you can spend more or less time on each of th
 
 # TME: Objectives
 The objective of the guided part of the TME is to :
-* 
+* Present concrete examples of the topics introduced in the lectures
+* Provide example codes to get started
+* Let you experiment on some simple data, to get familiar with the concepts
 
+The objectives is NOT to teach you how to code some particular solutions. There are many ways to code the solution to a same problem and you are free to do it the way you want, including using AI or taking inspiration from existing code. The important part is  **understanding** what you are doing, and **finding efficient ways** to do what you want to do. For instance, learning how to read the documentation (of an API, of a library) is often more important than to know how to write some particular pandas transformation.
+
+# Project
+
+# Note on AI tools
+You are free, for the TME and for the project, to use AI tools.
 
 # Details (WORK IN PROGRESS)
 
