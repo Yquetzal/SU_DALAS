@@ -24,76 +24,136 @@
 
 
 ## TME: General Organization
-Each TME class is split in two parts: 
-* The first 2 hours are devoted to a guided exercise
+
+Each TME session is split into two parts:
+* The first 2 hours are devoted to a guided exercise.
 * The last 2 hours are devoted to the project.
 
-The timing is relatively flexible, you can spend more or less time on each of the two parts, but do not neglect the first part. There is no evaluation on the first part. There are intermediate delivarable for the projects, detailed in the project section
+The timing is relatively flexible: you may spend more or less time on each part, but do not neglect the first one. There is no evaluation for the guided exercise. There are intermediate deliverables for the project, detailed in the project section.
 
 ## TME: Objectives
-The objective of the guided part of the TME is to :
-* Present concrete examples of the topics introduced in the lectures
-* Provide example codes to get started
-* Let you experiment on some simple data, to get familiar with the concepts
 
-The objectives is NOT to teach you how to code some particular solutions. There are many ways to code the solution to a same problem and you are free to do it the way you want, including using AI or taking inspiration from existing code. The important part is  **understanding** what you are doing, and **finding efficient ways** to do what you want to do. For instance, learning how to read the documentation (of an API, of a library) is often more important than to know how to write some particular pandas transformation.
+The objectives of the guided part of the TME are to:
+* Present concrete examples of the topics introduced in the lectures.
+* Provide example code to help you get started.
+* Let you experiment with simple datasets to become familiar with the concepts.
+
+The objective is **not** to teach you how to code a particular solution. There are many ways to solve the same problem, and you are free to implement your solution however you like, including using AI or taking inspiration from existing code. The important part is **understanding** what you are doing and **finding efficient ways** to achieve your goal. For instance, learning how to read the documentation of an API or a library is often more valuable than knowing how to write a particular pandas transformation.
 
 -------
 
 # Project
 
-The project is done in groups of 2 or 3 students. You can choose your groups freely. 
+The project is carried out in groups of 2 or 3 students. You are free to choose your group.
 
-The objective of the project is to 1)choose a dataset, 2)ask one or a few questions relative to this dataset, and 3)try to answer it. Each part is important:
+The objective of the project is to:
+1. choose a dataset,
+2. formulate one or several questions related to this dataset,
+3. try to answer them.
+
+Each part is important.
 
 ### The dataset
-You have to build your own dataset. There are two main possibilities: 
-* The first one is to use APIs and/or scrapping to build your own dataset from an accessible source. Usually it will not be just collecting one table from wikipedia, but rather collecting multiple several items and grouping them in a single database.
-* The second one is to use an already existing dataset. This is allowed ONLY if the dataset 1)corresponds to real data, i.e., not a synthetically generated dataset 2)is complex enough to require preprocessing and analysis. For instance, a dataset with 300 observations and 5 variables is too simple. A complete dump of a large database such as the one from openfoodfacts, a large collection of playlists from spotify, or complete records of temperatures from europe, daily during 10 years, will represent a sufficient challenge to analyze. In each of these case, enriching the dataset from other sources is not only allowed, but encouraged. For instance, in the temperature dataset, you can search for additionnal information about cities such as their geographical positions, altitude, precipitations, avergage cloud covers, or any other information that you think can be relevant.
+
+You have to build your own dataset. There are two main possibilities:
+
+* The first is to use APIs and/or web scraping to build your own dataset from one or several accessible sources. Usually, this means more than simply collecting a single table from Wikipedia: you should collect multiple items and combine them into a single dataset.
+
+* The second is to use an existing dataset. This is allowed **only if** the dataset:
+  1. contains real-world data (i.e., it is not synthetically generated), and
+  2. is complex enough to require meaningful preprocessing and analysis.
+
+  For instance, a dataset with 300 observations and 5 variables is too simple. In contrast, a complete dump of the OpenFoodFacts database, a large collection of Spotify playlists, or daily temperature records across Europe over ten years would all represent sufficiently challenging datasets.
+
+  In all of these cases, enriching the dataset with information from other sources is not only allowed but encouraged. For example, for the temperature dataset, you could collect additional information about cities such as their geographical coordinates, altitude, precipitation, average cloud cover, or any other variables that you think may be relevant.
 
 ### The question(s)
-You have to choose one or a few questions that are general questions about the world, and not specific to a dataset. For instance, examples of correct questions are:
+
+You have to choose one or several questions about the real world, rather than questions about the dataset itself.
+
+Examples of appropriate questions include:
+
 * Where is climate change the strongest?
-* Who is the most probable next president of France?
-* What are the main factors driving the price of used cars?
-etc.
+* Who is the most likely next President of France?
+* What are the main factors driving used car prices?
 
-Examples of questions that are not adapted are:
-* What are the clusters of cities found on a dataset of climate change? (blindly applying methods to a dataset)
-* What method gives the best result to predict used car prices? (blindly applying methods to a dataset)
+Examples of questions that are **not** appropriate include:
 
-Think of the process in that way:
-1)Think about a question that interst you
-2)Search for the data adapted to answer that question
-3)Apply the various tools presented in the class to answer your question with your data
+* What clusters of cities can be found in a climate change dataset? (blindly applying methods to a dataset)
+* Which method gives the best predictions for used car prices? (blindly comparing methods)
+
+Think about the process this way:
+
+1. Think of a question that interests you.
+2. Search for data suitable for answering that question.
+3. Apply the tools presented in the course to answer it.
 
 ### FAQ
-* _What if I don't know if I will find the correct data to answer my question?_
-First make a quick check that some data exist. If yes, see answer to the next question
-* _What if the question I asked is too difficult and I later realise that 1)I do not have the appropriate data, or 2)The problem is too complex to solve with the methods I learned in the class_
-That is not a problem. You will not be evaluated on the correctness of the answer to your question. You will be evaluated on your capacity to apply the Data Analysis process described in the course: understand your data, its limits, prepare it correctly, apply adapted methods, interpret the results, etc. You might end-up answering only part of the question, or concluding that you need an additional information you do not have access to in order to answer your questions. But that can be a successful result, if you learned this by applying successfully the tools presented in the class to the best dataset you could collect in the time you had.
-* _I don't know yet what we will learn in the class so I don't know yet what answer I will be able to answer_
-That is true, but it is not a problem, see previous point. If you realize that the tools are more adapated to answer a related question, you can adapt your question, keeping the same idea.
+
+**_What if I don't know whether I will be able to find the data needed to answer my question?_**
+
+First, make a quick check that such data exist. If they do, see the next question.
+
+**_What if I later realize that 1) I do not have the appropriate data, or 2) the problem is too complex to solve with the methods learned in class?_**
+
+That is not a problem. You will **not** be evaluated on whether you successfully answer your question. You will be evaluated on your ability to apply the data analysis process presented in the course: understanding your data and its limitations, preparing it correctly, applying appropriate methods, interpreting the results, etc.
+
+You may end up answering only part of your question, or concluding that additional information would be required to answer it completely. That can still be a successful project, provided that you reached this conclusion by correctly applying the tools presented in class to the best dataset you were able to collect.
+
+**_I don't know yet what we will learn during the course, so I don't know what questions I will be able to answer._**
+
+That is true, but it is not a problem (see the previous point). If, during the semester, you realize that the methods presented in class are better suited to answering a related question, you are free to refine or slightly modify your research question while keeping the same overall objective.
 
 ### Deliverables
-* 05/10 (10%): Question and Dataset (can be preliminary, i.e., can be udpated later)
-* 02/11 (25%): EDA, Data description
-* 30/11 (65%): Final Report
+
+* **05/10 (10%)**: Research question and dataset (preliminary version; both may be updated later)
+* **02/11 (25%)**: Dashboard for exploratory data analysis
+* **30/11 (65%)**: Final report
 
 #### Deliverable 1
-The first deliverable is composed of a 2 page report, containing 1)The question(s) the group will investigate, 2)The quantitative description of the dataset collected, with the description of the methods used to collect it. It will contain information such as the number of observations, the descriptions of the variables, etc.
+
+The first deliverable consists of a two-page report containing:
+
+1. the research question(s),
+2. a quantitative description of the collected dataset, together with a description of the data collection process.
+
+It should include information such as the number of observations, the variables collected, their meaning, and any relevant preprocessing already performed.
 
 #### Deliverable 2
-The second deliverable will be a dashboard allowing to explore your dataset. In order to be easy to share and fast to use, it can be focused on a subset of the complete data, or on a transformed summary of your original data. The teacher should be able to run the dashboard easily. The dashboard must not be a simple collection of by-default visualization (e.g., distribution of each variable, default clustering and dimensionality reduction, etc.). The exploration and visualisation it proposes must be tailored to the dataset (e.g., a map for geographical data, choice of parameters that give relevant and readable results for a clustering/dimansionality reduction, etc.).
-The dashboard does not have to be useful to answer the question yet, but it should be efficient to explore and understand the dataset.
+
+The second deliverable is a dashboard for exploring your dataset.
+
+To make it easy to share and fast to use, it may focus on a subset of the data or on a transformed summary of the original dataset. The teacher should be able to run the dashboard easily.
+
+The dashboard should **not** simply display default visualizations (e.g., distributions of every variable, default clustering, or default dimensionality reduction). Instead, the proposed visualizations should be tailored to your dataset (for example, using maps for geographical data, or choosing clustering and dimensionality reduction parameters that produce meaningful and readable results).
+
+The dashboard does not yet need to answer your research question, but it should make the dataset easy to explore and understand.
 
 #### Deliverable 3
-A visual report. It should contain a maximum of 2000 words, and a maximum of 12 pages including figures. It can be a PDF or an interactive HTML page. The objective is to have a clear, professional looking, data-based investigation of your question, that is easy to read. You can take inspirations from the following examples: [peak population](https://ourworldindata.org/which-countries-have-already-passed-peak-population-and-when-will-the-rest-do-so), [climate change and agriculture](https://ourworldindata.org/will-climate-change-affect-crop-yields-future), [student population in the UK].(https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/livebirths/articles/howhasthestudentpopulationchanged/2016-09-20?utm_source=chatgpt.com)
-Additionnaly, you will provide: 
-1)The codes used to generate all the elements in the visual report
-2)A technical report describing the technical elements not discussed in the visual reports: details of data preparation, technical choices made for each method, etc.
 
-The evaluation of this part will be the average of 2 grades: 1)Quality of the visual report, including the report itself, choice of figures, answer to the questions, right choice of methods, correct usage of the methods, quality of the interpretation, correctness of the data used, etc., and 2)Global evaluation of the work produced during the semester, taking into account weekly discussions with the teacher, code produced, etc. **Students that were not present during the project sessions might thus obtain a grade of zero on that part, even if they submitted a good visual report**.
+A visual report.
+
+The report should contain **at most 2,000 words** and **at most 12 pages, including figures**. It may be provided either as a PDF document or as an interactive HTML page.
+
+The objective is to produce a clear, professional-looking, data-driven investigation that is pleasant to read.
+
+You may take inspiration from the following examples:
+
+- *Peak population* (Our World in Data)
+- *Climate change and agriculture* (Our World in Data)
+- *How has the student population changed?* (UK Office for National Statistics)
+
+Additionally, you must provide:
+
+1. all the code used to generate the elements included in the visual report;
+2. a technical report describing aspects that are not discussed in the visual report, such as data preparation, implementation details, parameter choices, and other technical decisions.
+
+The final grade for this deliverable will be the average of two components:
+
+1. the quality of the final report (report itself, figures, research question, choice and correct application of methods, interpretation of results, quality of the data, etc.);
+2. an overall evaluation of the work carried out during the semester, based on weekly discussions with the teacher, the quality of the code produced, and your involvement in the project sessions.
+
+**Students who do not attend the project sessions may therefore receive a grade of zero for the second component, even if they submit an excellent final report.**
 
 ----
 
