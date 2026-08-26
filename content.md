@@ -12,8 +12,9 @@
 * 23/11 - From lab to Production - MLops(OS)
 
 ---------------
+# TME
 
-# TME: Groups and Teachers
+## TME: Groups and Teachers
 | Groupe | Jour | Horaire | Enseignant(s) |
 |--------|------|----------|----------------|
 | **G1** | Monday | 8:30–12:45 | Clara |
@@ -21,16 +22,15 @@
 | **G3** | Thursday | 8:30–12:45 | Zakariae |
 | **G4** | Thursday | 13:45–18:00 | Camélia (20 h) + Zakariae (20 h) |
 
-----------
 
-# TME: Organization
+## TME: General Organization
 Each TME class is split in two parts: 
 * The first 2 hours are devoted to a guided exercise
 * The last 2 hours are devoted to the project.
 
 The timing is relatively flexible, you can spend more or less time on each of the two parts, but do not neglect the first part. There is no evaluation on the first part. There are intermediate delivarable for the projects, detailed in the project section
 
-# TME: Objectives
+## TME: Objectives
 The objective of the guided part of the TME is to :
 * Present concrete examples of the topics introduced in the lectures
 * Provide example codes to get started
@@ -38,12 +38,23 @@ The objective of the guided part of the TME is to :
 
 The objectives is NOT to teach you how to code some particular solutions. There are many ways to code the solution to a same problem and you are free to do it the way you want, including using AI or taking inspiration from existing code. The important part is  **understanding** what you are doing, and **finding efficient ways** to do what you want to do. For instance, learning how to read the documentation (of an API, of a library) is often more important than to know how to write some particular pandas transformation.
 
+-------
+
 # Project
 
-# Note on AI tools
-You are free, for the TME and for the project, to use AI tools.
+----
 
-# Details (WORK IN PROGRESS)
+# Note on AI tools
+You are free, for the TME and for the project, to use AI tools. AI tools are very efficient at coding and often avoid the need to know the details of how to use a particular library, how to make a nice looking plot, etc.
+However, be careful of the following:
+* AI tools will only do what you ask. So you need to know what is possible to do or not to do in order to ask the right questions. Example, if you ask a plot and you do not know that it is possible to make it interactive, the AI will generate a static plot. It might also use a long and complex code using directly matplotlib instead of doing it in a few lines using the seaborn library.
+* AI writes the code, but YOU are the person responsible for everything it writes. In a datamining pipeline, many decisions affect the results, and you MUST BE AWARE of these decisions. For instance, if you ask the AI to code a classification on some data, it will take many arbitrary decisions in the process, such as the fraction of the dataset used in train/test, the data transformation of each variable, that might or might not be documented (e.g., the AI cannot know that an integer column encode categorical variables, and thus treat it as numerical, a major error), the objective function, the parameter of the method used (e.g., in xgboosts, there are many parameters controlling regularization, number and size of the default trees, objective functions, etc.), number of repetitions of the experiments, etc. You MUST be aware of all these elements. You must know what is in your code. (It can be different for some other code productions such as generating the front-end of a website or a plot, where the result can be judge by simply looking at it. But in a datamining pipeline, it is impossible to judge the quality of the result by looking only at the result.) 
+* AI generated code is often long and complex, thus difficult to maintain. I strongly recommend to use these tools to generate individual functions, step by step, rather to trust them on a full process. Later modifications and reading of long code written by AI in autonomy is often very difficult
+
+
+--------
+
+# Syllabus of the classes (work in progress)
 
 ## Intro + data collection
 * Presentation of class content, evaluation, etc.
