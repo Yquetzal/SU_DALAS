@@ -141,7 +141,7 @@ You may take inspiration from the following examples:
 
 * [peak population](https://ourworldindata.org/which-countries-have-already-passed-peak-population-and-when-will-the-rest-do-so)
 * [climate change and agriculture](https://ourworldindata.org/will-climate-change-affect-crop-yields-future)
-*  [student population in the UK] (https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/livebirths/articles/howhasthestudentpopulationchanged/2016-09-20)
+* [student population in the UK](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/livebirths/articles/howhasthestudentpopulationchanged/2016-09-20)
 
 Additionally, you must provide:
 
