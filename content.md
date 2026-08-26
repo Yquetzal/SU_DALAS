@@ -77,8 +77,8 @@ That is true, but it is not a problem, see previous point. If you realize that t
 
 ### Deliverables
 * 05/10 (10%): Question and Dataset (can be preliminary, i.e., can be udpated later)
-* 02/11 (30%): EDA, Data description
-* 30/11 (60%): Final Report
+* 02/11 (25%): EDA, Data description
+* 30/11 (65%): Final Report
 
 #### Deliverable 1
 The first deliverable is composed of a 2 page report, containing 1)The question(s) the group will investigate, 2)The quantitative description of the dataset collected, with the description of the methods used to collect it. It will contain information such as the number of observations, the descriptions of the variables, etc.
@@ -88,7 +88,12 @@ The second deliverable will be a dashboard allowing to explore your dataset. In 
 The dashboard does not have to be useful to answer the question yet, but it should be efficient to explore and understand the dataset.
 
 #### Deliverable 3
-The final report. It should contain a maximum of 2000 words, and a maximum of 12 pages including figures. It can be a PDF or an interactive HTML page. The obejctive is to have a clear, professional looking, data-based investigation of your question, that is easy to read. You can take inspirations from the following examples: [peak population](https://ourworldindata.org/which-countries-have-already-passed-peak-population-and-when-will-the-rest-do-so), [climate change and agriculture](https://ourworldindata.org/will-climate-change-affect-crop-yields-future)
+A visual report. It should contain a maximum of 2000 words, and a maximum of 12 pages including figures. It can be a PDF or an interactive HTML page. The objective is to have a clear, professional looking, data-based investigation of your question, that is easy to read. You can take inspirations from the following examples: [peak population](https://ourworldindata.org/which-countries-have-already-passed-peak-population-and-when-will-the-rest-do-so), [climate change and agriculture](https://ourworldindata.org/will-climate-change-affect-crop-yields-future), [student population in the UK].(https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/livebirths/articles/howhasthestudentpopulationchanged/2016-09-20?utm_source=chatgpt.com)
+Additionnaly, you will provide: 
+1)The codes used to generate all the elements in the visual report
+2)A technical report describing the technical elements not discussed in the visual reports: details of data preparation, technical choices made for each method, etc.
+
+The evaluation of this part will be the average of 2 grades: 1)Quality of the visual report, including the report itself, choice of figures, answer to the questions, right choice of methods, correct usage of the methods, quality of the interpretation, correctness of the data used, etc., and 2)Global evaluation of the work produced during the semester, taking into account weekly discussions with the teacher, code produced, etc. **Students that were not present during the project sessions might thus obtain a grade of zero on that part, even if they submitted a good visual report**.
 
 ----
 
