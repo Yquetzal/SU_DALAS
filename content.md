@@ -156,13 +156,28 @@ The final grade for this deliverable will be the average of two components:
 **Students who do not attend the project sessions may therefore receive a grade of zero for the second component, even if they submit an excellent final report.**
 
 ----
+# Note on AI Tools
 
-# Note on AI tools
-You are free, for the TME and for the project, to use AI tools. AI tools are very efficient at coding and often avoid the need to know the details of how to use a particular library, how to make a nice looking plot, etc.
-However, be careful of the following:
-* AI tools will only do what you ask. So you need to know what is possible to do or not to do in order to ask the right questions. Example, if you ask a plot and you do not know that it is possible to make it interactive, the AI will generate a static plot. It might also use a long and complex code using directly matplotlib instead of doing it in a few lines using the seaborn library.
-* AI writes the code, but YOU are the person responsible for everything it writes. In a datamining pipeline, many decisions affect the results, and you MUST BE AWARE of these decisions. For instance, if you ask the AI to code a classification on some data, it will take many arbitrary decisions in the process, such as the fraction of the dataset used in train/test, the data transformation of each variable, that might or might not be documented (e.g., the AI cannot know that an integer column encode categorical variables, and thus treat it as numerical, a major error), the objective function, the parameter of the method used (e.g., in xgboosts, there are many parameters controlling regularization, number and size of the default trees, objective functions, etc.), number of repetitions of the experiments, etc. You MUST be aware of all these elements. You must know what is in your code. (It can be different for some other code productions such as generating the front-end of a website or a plot, where the result can be judge by simply looking at it. But in a datamining pipeline, it is impossible to judge the quality of the result by looking only at the result.) 
-* AI generated code is often long and complex, thus difficult to maintain. I strongly recommend to use these tools to generate individual functions, step by step, rather to trust them on a full process. Later modifications and reading of long code written by AI in autonomy is often very difficult
+You are free to use AI tools, both during the TME sessions and for the project. AI tools are very effective at coding and can often remove the need to know the details of how to use a particular library, how to produce a nice-looking plot, etc.
+
+However, keep the following points in mind:
+
+* **AI tools will only do what you ask them to do.** You therefore need to know what is possible in order to ask the right questions. For example, if you ask for a plot but do not know that it can be made interactive, the AI will probably generate a static plot. It might also produce long and complex code using `matplotlib` directly when the same result could be obtained in a few lines with `seaborn`.
+
+* **AI writes the code, but YOU are responsible for everything it does.** In a data mining pipeline, many decisions can affect the results, and you **MUST BE AWARE** of these decisions. For instance, if you ask an AI to implement a classification pipeline, it may make many arbitrary choices, such as:
+  - the fraction of the dataset used for training and testing;
+  - the transformations applied to each variable;
+  - how variables are interpreted (e.g., an integer column may actually encode categorical values, but the AI may incorrectly treat it as numerical);
+  - the objective function;
+  - the parameters of the chosen method (e.g., XGBoost has many parameters controlling regularization, the number and depth of trees, the objective function, etc.);
+  - the number of repetitions of the experiment.
+  - etc.
+
+  You must understand these choices and know what is happening in your code.
+
+  Note: This requirement may be less important for some types of code, such as generating the front end of a website or adjusting the appearance of a plot, where the quality of the result can often be assessed simply by looking at it. In a data mining pipeline, however, it is generally impossible to assess the validity of the analysis from the final output alone.
+
+* **AI-generated code is often unnecessarily long and complex, which makes it difficult to understand and maintain.** I strongly recommend using these tools to generate or improve individual functions and small pieces of code step by step, rather than asking them to produce an entire analysis pipeline autonomously. Reading, debugging, and modifying a large amount of AI-generated code afterwards can be very difficult. Demonstrating that you have a good knowledge of what your code is doing will be part of the evaluation.
 
 
 --------
