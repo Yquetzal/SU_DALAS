@@ -1,4 +1,4 @@
-# Overview
+# Lectures: Overview, Schedule and Teachers
 
 * 14/09 - Intro + data collection(RC)
 * 21/09 - EDA + Dash(RC)
@@ -11,11 +11,28 @@
 * 16/11 - Interpretability - Bias (RC)
 * 23/11 - From lab to Production - MLops(OS)
 
-# Schedule - teachers
-* G1:Monday 8h30-12h45 :         Clara
-* G2:Wednesday 8h30-12h45 :    Rémy
-* G3:Thursday 8h30-12h45 :       Zakariae
-* G4:Thursday 13h45-18h00 :     Camélia(20h) + Zakariae(20h)
+---------------
+
+# TME: Groups and Teachers
+| Groupe | Jour | Horaire | Enseignant(s) |
+|--------|------|----------|----------------|
+| **G1** | Monday | 8:30–12:45 | Clara |
+| **G2** | Wednesday | 8:30–12:45 | Rémy |
+| **G3** | Thursday | 8:30–12:45 | Zakariae |
+| **G4** | Thursday | 13:45–18:00 | Camélia (20 h) + Zakariae (20 h) |
+
+----------
+
+# TME: Organization
+Each TME class is split in two parts: 
+* The first 2 hours are devoted to a guided exercise
+* The last 2 hours are devoted to the project.
+
+The timing is relatively flexible, you can spend more or less time on each of the two parts, but do not neglect the first part. There is no evaluation on the first part. There are intermediate delivarable for the projects, detailed in the project section
+
+# TME: Objectives
+The objective of the guided part of the TME is to :
+* 
 
 
 # Details (WORK IN PROGRESS)
