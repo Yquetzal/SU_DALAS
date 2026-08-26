@@ -31,7 +31,7 @@ Each TME session is split into two parts:
 
 The timing is relatively flexible: you may spend more or less time on each part, but do not neglect the first one. There is no evaluation for the guided exercise. There are intermediate deliverables for the project, detailed in the project section.
 
-## TME: Objectives
+## TME guided part: Objectives
 
 The objectives of the guided part of the TME are to:
 * Present concrete examples of the topics introduced in the lectures.
@@ -40,6 +40,17 @@ The objectives of the guided part of the TME are to:
 
 The objective is **not** to teach you how to code a particular solution. There are many ways to solve the same problem, and you are free to implement your solution however you like, including using AI or taking inspiration from existing code. The important part is **understanding** what you are doing and **finding efficient ways** to achieve your goal. For instance, learning how to read the documentation of an API or a library is often more valuable than knowing how to write a particular pandas transformation.
 
+## TME guided part: contents
+* Week 1 - Data collection (scraping, APIs)
+* Week 2 - EDA + Dash
+* Week 3 - BD1
+* Week 4 - BD2
+* Week 5 - Clustering
+* Week 6 - Dimensionality Reduction
+* Week 7 - ML Protocol-1
+* Week 8- ML Protocol-2
+* Week 9 - Interpretability - Bias
+* Week 10 - From lab to Production - MLops
 -------
 
 # Project
