@@ -60,8 +60,8 @@ You have to build your own dataset. There are two main possibilities:
 * The first is to use APIs and/or web scraping to build your own dataset from one or several accessible sources. Usually, this means more than simply collecting a single table from Wikipedia: you should collect multiple items and combine them into a single dataset.
 
 * The second is to use an existing dataset. This is allowed **only if** the dataset:
-  1. contains real-world data (i.e., it is not synthetically generated), and
-  2. is complex enough to require meaningful preprocessing and analysis.
+  1) contains real-world data (i.e., it is not synthetically generated), and
+  2) is complex enough to require meaningful preprocessing and analysis.
 
   For instance, a dataset with 300 observations and 5 variables is too simple. In contrast, a complete dump of the OpenFoodFacts database, a large collection of Spotify playlists, or daily temperature records across Europe over ten years would all represent sufficiently challenging datasets.
 
