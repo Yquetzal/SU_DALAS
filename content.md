@@ -68,10 +68,27 @@ Think of the process in that way:
 3)Apply the various tools presented in the class to answer your question with your data
 
 ### FAQ
-* What if I don't know if I will find the correct data to answer my question?
+* _What if I don't know if I will find the correct data to answer my question?_
 First make a quick check that some data exist. If yes, see answer to the next question
-* What if the question I asked is too difficult and I later realise that 1)I do not have the appropriate data, or 2)The problem is too complex to solve with the methods I learned in the class
+* _What if the question I asked is too difficult and I later realise that 1)I do not have the appropriate data, or 2)The problem is too complex to solve with the methods I learned in the class_
 That is not a problem. You will not be evaluated on the correctness of the answer to your question. You will be evaluated on your capacity to apply the Data Analysis process described in the course: understand your data, its limits, prepare it correctly, apply adapted methods, interpret the results, etc. You might end-up answering only part of the question, or concluding that you need an additional information you do not have access to in order to answer your questions. But that can be a successful result, if you learned this by applying successfully the tools presented in the class to the best dataset you could collect in the time you had.
+* _I don't know yet what we will learn in the class so I don't know yet what answer I will be able to answer_
+That is true, but it is not a problem, see previous point. If you realize that the tools are more adapated to answer a related question, you can adapt your question, keeping the same idea.
+
+### Deliverables
+* 05/10 (10%): Question and Dataset (can be preliminary, i.e., can be udpated later)
+* 02/11 (30%): EDA, Data description
+* 30/11 (60%): Final Report
+
+#### Deliverable 1
+The first deliverable is composed of a 2 page report, containing 1)The question(s) the group will investigate, 2)The quantitative description of the dataset collected, with the description of the methods used to collect it. It will contain information such as the number of observations, the descriptions of the variables, etc.
+
+#### Deliverable 2
+The second deliverable will be a dashboard allowing to explore your dataset. In order to be easy to share and fast to use, it can be focused on a subset of the complete data, or on a transformed summary of your original data. The teacher should be able to run the dashboard easily. The dashboard must not be a simple collection of by-default visualization (e.g., distribution of each variable, default clustering and dimensionality reduction, etc.). The exploration and visualisation it proposes must be tailored to the dataset (e.g., a map for geographical data, choice of parameters that give relevant and readable results for a clustering/dimansionality reduction, etc.).
+The dashboard does not have to be useful to answer the question yet, but it should be efficient to explore and understand the dataset.
+
+#### Deliverable 3
+The final report. It should contain a maximum of 2000 words, and a maximum of 12 pages including figures. It can be a PDF or an interactive HTML page. The obejctive is to have a clear, professional looking, data-based investigation of your question, that is easy to read. You can take inspirations from the following examples: [peak population](https://ourworldindata.org/which-countries-have-already-passed-peak-population-and-when-will-the-rest-do-so), [climate change and agriculture](https://ourworldindata.org/will-climate-change-affect-crop-yields-future)
 
 ----
 
