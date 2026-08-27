@@ -1,6 +1,6 @@
 # Lectures: Overview, Schedule and Teachers
 
-* 14/09 - Intro + data collection(RC)
+* 14/09 - Intro + data collection(RC) + Project
 * 21/09 - EDA + Dash(RC)
 * 28/09 - BD1 (CC)
 * 05/10 - BD2 + Storytelling (CC)
