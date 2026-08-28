@@ -128,7 +128,7 @@ The first deliverable consists of a **two-pages** report containing:
 1. the research question(s),
 2. a quantitative description of the collected dataset, together with a description of the data collection process.
 
-It should include information such as the number of observations, the variables collected, their meaning, and any relevant preprocessing already performed.
+It should include information such as the number of observations, the variables collected, their meaning, and any relevant preprocessing already performed. Choices made must be explained.
 
 #### Deliverable 2
 
