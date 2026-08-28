@@ -144,7 +144,7 @@ The dashboard does not yet need to answer your research question, but it should 
 
 A visual report.
 
-The report should contain **at most 2,000 words** and **at most 12 pages, including figures**. It may be provided either as a PDF document or as an interactive HTML page (which prints in approximately less than 12 pages).
+The report should contain **at most 2,000 words** and **at most 12 pages, including figures**. It may be provided either as a PDF document (prefentially produced from latex), or as an interactive HTML page (which prints in approximately less than 12 pages).
 
 The objective is to produce a clear, professional-looking, data-driven investigation that is pleasant to read.
 
