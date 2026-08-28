@@ -123,7 +123,7 @@ That is true, but it is not a problem (see the previous point). If, during the s
 
 #### Deliverable 1
 
-The first deliverable consists of a two-page report containing:
+The first deliverable consists of a **two-pages** report containing:
 
 1. the research question(s),
 2. a quantitative description of the collected dataset, together with a description of the data collection process.
