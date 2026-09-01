@@ -6,10 +6,10 @@
 * 05/10 - BD2 + Storytelling (CC)
 * 12/10 - Clustering(RC)
 * 19/10 - Dimensionality Reduction(RC)
-* 02/11 - ML Protocol-1(CBM)
-* 09/11 - ML Protocol-2(CBM) 
-* 16/11 - Interpretability - Bias (RC)
-* 23/11 - From lab to Production - MLops(OS)
+* 16/11 - ML Protocol-1(CBM)
+* 23/11 - ML Protocol-2(CBM) 
+* 30/11 - Interpretability - Bias (RC)
+* 7/12 - From lab to Production - MLops(OS)
 
 ---------------
 # TME
