@@ -42,9 +42,9 @@ The objective is **not** to teach you how to code a particular solution. There a
 
 ## TME guided part: contents
 * Week 1 - Data collection (scraping, APIs), missing data, outliers
-* Week 2 - EDA + Dash
-* Week 3 - BD1
-* Week 4 - BD2
+* Week 2 - EDA
+* Week 3 - Dash
+* Week 4 - BD
 * Week 5 - Clustering
 * Week 6 - Dimensionality Reduction
 * Week 7 - ML Protocol-1
